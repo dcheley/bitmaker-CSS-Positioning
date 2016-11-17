@@ -23,12 +23,14 @@ body {
   background-color: #eee;
   position: relative;
   max-width: 1200px;
+  margin: auto;
+  border: 3px solid black;
+  background-color: #eee;
 }
 
 .box {
   width: 200px;
   height: 200px;
-
 }
 
 .red {
