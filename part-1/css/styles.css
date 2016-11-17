@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%; /* this will be 16px on most browsers */
+  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+}
+
+body {
+  height: 2000px;
+}
+
+.container {
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  border: 3px solid black;
+  background-color: #eee;
+  position: relative;
+  max-width: 1200px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+
+}
+
+.red {
+  background-color: pink;
+  top: 25%;
+  bottom: 200px;
+  right: 65%;
+  height: 300px;
+  position: absolute;
+}
+
+.green {
+  background-color: lightgreen;
+  right: 50%;
+  bottom: 30%;
+  position: absolute;
+}
+
+.blue {
+  background-color: lightblue;
+  top: 20%;
+  right: 60%;
+  position: absolute;
+  z-index: 1;
+}
+
+.orange {
+  background-color: orange;
+  top: 75%;
+  left: 25%;
+  height: 300px;
+  position: absolute;
+}
+
+.yellow {
+  background-color: yellow;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 2
+}
