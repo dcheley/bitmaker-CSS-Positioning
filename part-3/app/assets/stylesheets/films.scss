@@ -1,72 +1,8 @@
 // Place all the styles related to the Films controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  box-sizing: inherit;
-  $font-style_1:
-  font-size: 20px;
-  line-height: 1.35;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: 100%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  $font-style_2
-  // font-weight: 700;
-  line-height: 1.1;
-}
-
-img {
-  max-width: 100%;
-}
-
-figure {
-  margin: 0;
-}
-
-article {
-  width: 75%;
-  margin: 1rem auto 3rem;
-}
-
-article > header {
-  overflow: auto;
-}
-
-.home {
-  height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.article-poster {
-    float: left;
-    width: 25%;
-    margin-right: 1.5rem;
-}
-
-.article-title > h2 {
-    font-size: 1.2em;
-    $other_color
-}
-
-.article-title > h1 {
-    font-size: 2rem;
-    margin-bottom: 0;
-    $dark_redcolor
-}
+@import "variables";
+@import "mixins";
+@import "base";
+@import "hero";
+@import "article";

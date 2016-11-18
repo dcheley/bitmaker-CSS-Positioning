@@ -1,6 +1,6 @@
 .hero-block {
   position: relative;
-  @include
+  @include clearfix;
 }
 
 .hero-logo-container {
@@ -23,10 +23,10 @@
 .hero-title-container > .hero-title {
   font-size: 3rem;
   margin: 2rem 0 0;
-  $dark_redcolor
+  color: $dark_redcolor;
 }
 
 .hero-title-container > .hero-tagline {
-  $other_color
   margin: 0.25rem 0;
+  color: $other_color;
 }
