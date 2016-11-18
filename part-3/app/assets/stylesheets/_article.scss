@@ -6,11 +6,11 @@
 
 .article-title > h2 {
     font-size: 1.2em;
-    $other_color
+    color: $other_color;
 }
 
 .article-title > h1 {
     font-size: 2rem;
     margin-bottom: 0;
-    $dark_redcolor
+    color: $dark_redcolor;
 }
