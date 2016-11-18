@@ -62,7 +62,7 @@ article > header {
 
 .hero-block {
   position: relative;
-  overflow: hidden;
+  @include
 }
 
 .hero-logo-container {
