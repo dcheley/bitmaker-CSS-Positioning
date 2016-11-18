@@ -24,7 +24,6 @@ figure {
 }
 
 .film {
-  width: 50%;
   margin: 100px auto;
   overflow: hidden;
   width: 700px;
@@ -39,7 +38,6 @@ figure {
 .film-details {
   float: right;
   left: 2%;
-  display: inline-block;
   top: 0%;
   width: 70%;
   position: relative;
